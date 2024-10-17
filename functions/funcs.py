@@ -28,38 +28,38 @@
 #
 # print(multiple(2, 3, 5))
 
-# def process_order(*args, name, surname):
-#     print("Продукты:", *args)
-#     print("Информация:")
-#     print("name:", name)
-#     print("surname:", surname)
+def process_order(*args, name, surname):
+    print("Продукты:", *args)
+    print("Информация:")
+    print("name:", name)
+    print("surname:", surname)
+
+process_order('Пицца', 'Суши', name='Райан', surname='Гослинг')
+
+# def summ(a, b):
+#     return a + b
 #
-# process_order('Пицца', 'Суши', name='Райан', surname='Гослинг')
-
-def summ(a, b):
-    return a + b
-
-def subtraction(a, b):
-    return a - b
-
-def multiplication(a, b):
-    return a * b
-
-def division(a, b):
-    return a / b
-
-
-
-def calculator(a, b, c = "+"):
-    if c == "+":
-        return summ(a, b)
-    elif c == "-":
-        return subtraction(a, b)
-    elif c == "*":
-        return multiplication(a, b)
-    elif c == "/":
-        return division(a, b)
-
-
-
-print(calculator(3, 2, "/"))
+# def subtraction(a, b):
+#     return a - b
+#
+# def multiplication(a, b):
+#     return a * b
+#
+# def division(a, b):
+#     return a / b
+#
+#
+#
+# def calculator(a, b, c = "+"):
+#     if c == "+":
+#         return summ(a, b)
+#     elif c == "-":
+#         return subtraction(a, b)
+#     elif c == "*":
+#         return multiplication(a, b)
+#     elif c == "/":
+#         return division(a, b)
+#
+#
+#
+# print(calculator(3, 2, "/"))
