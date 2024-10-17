@@ -5,4 +5,5 @@ def multiple(*args):
     print(args)
     return a
 
+
 print(multiple(2, 3, 5))
