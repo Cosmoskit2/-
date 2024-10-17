@@ -1,22 +1,22 @@
-# import random
-#
-# def is_odd(numm):
-#     if numm % 2 != 1:
-#         return True
-#     else:
-#         return False
-#
-# def random_is_odd(n):
-#     random_numbers = {"odd": 0, "even": 0}
-#     for i in range(n):
-#         number = random.randint(1, 1000)
-#         if is_odd(number) == True:
-#             random_numbers["odd"] += 1
-#         else:
-#             random_numbers["even"] += 1
-#     return random_numbers
-#
-# random_is_odd(10)
+import random
+
+def is_odd(numm):
+    if numm % 2 != 1:
+        return True
+    else:
+        return False
+
+def random_is_odd(n):
+    random_numbers = {"odd": 0, "even": 0}
+    for i in range(n):
+        number = random.randint(1, 1000)
+        if is_odd(number) == True:
+            random_numbers["odd"] += 1
+        else:
+            random_numbers["even"] += 1
+    return random_numbers
+
+random_is_odd(10)
 #
 #
 # def multiple(*args):
@@ -28,13 +28,13 @@
 #
 # print(multiple(2, 3, 5))
 
-def process_order(*args, name, surname):
-    print("Продукты:", *args)
-    print("Информация:")
-    print("name:", name)
-    print("surname:", surname)
-
-process_order('Пицца', 'Суши', name='Райан', surname='Гослинг')
+# def process_order(*args, name, surname):
+#     print("Продукты:", *args)
+#     print("Информация:")
+#     print("name:", name)
+#     print("surname:", surname)
+#
+# process_order('Пицца', 'Суши', name='Райан', surname='Гослинг')
 
 # def summ(a, b):
 #     return a + b

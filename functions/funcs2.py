@@ -16,4 +16,5 @@ def random_is_odd(n):
             random_numbers["even"] += 1
     return random_numbers
 
-random_is_odd(10)
+print(random_is_odd(10))
+
